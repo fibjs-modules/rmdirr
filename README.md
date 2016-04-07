@@ -1,6 +1,6 @@
 # rmdirr
 
-rmdir recursively for fibjs.
+remove all files and directories like rmdir -rf in fibjs.
 
 ```js
 const rmdirr = require('rmdirr');
