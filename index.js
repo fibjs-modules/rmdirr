@@ -5,14 +5,16 @@ module.exports = function rmdirr(p) {
   if (typeof p !== 'string') {
     throw new TypeError('Path must be a string.');
   }
-  let fl = fs.readdir(p);
+  const fl = fs.readdir(p);
+
   if (fl.length > 0) {
     fl.forEach(s => {
-      if (s.name !== '.' && s.name !== '..') {
-        let real = path.join(p, s.name);
-        if (s.isDirectory()) {
+      if (s !== '.' && s !== '..') {
+        const real = path.join(p, s);
+        const stat = fs.stat(real);
+        if (stat.isDirectory()) {
           rmdirr(real);
-        } else if (s.isFile()) {
+        } else if (stat.isFile()) {
           fs.unlink(real);
         }
       }

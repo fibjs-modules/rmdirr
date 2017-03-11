@@ -1,0 +1,33 @@
+{
+  "name": "@fibjs/rmdirr",
+  "description": "remove all files and directories like rmdir -rf in fibjs.",
+  "version": "1.0.0",
+  "keywords": [
+    "rmdir",
+    "fibjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibjs-modules/rmdirr.git"
+  },
+  "scripts": {
+    "ci": "fibjs test/test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@fibjs/ci": "^1.0.0"
+  },
+  "ci": {
+    "type": "travis"
+  },
+  "bugs": {
+    "url": "https://github.com/fibjs-modules/rmdirr/issues"
+  },
+  "author": "ngot <zhuanghengfei@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/fibjs-modules/rmdirr#readme",
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
