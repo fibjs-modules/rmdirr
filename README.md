@@ -31,7 +31,7 @@ $ npm i @fibjs/rmdirr --save
 ## Usage
 
 ```js
-const rmdirr = require('rmdirr');
+const rmdirr = require('@fibjs/rmdirr');
 
 try{
 	rmdirr('/tmp/a/c/d/e');
