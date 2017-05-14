@@ -2,6 +2,7 @@
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
+[![appveyor build status][appveyor-image]][appveyor-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
@@ -11,6 +12,8 @@
 [npm-url]: https://npmjs.org/package/@fibjs/rmdirr
 [travis-image]: https://img.shields.io/travis/fibjs-modules/rmdirr.svg?style=flat-square
 [travis-url]: https://travis-ci.org/fibjs-modules/rmdirr
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/3yoaos4qnax1n2bs/branch/master?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/ngot/rmdirr
 [codecov-image]: https://img.shields.io/codecov/c/github/fibjs-modules/rmdirr.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/fibjs-modules/rmdirr?branch=master
 [david-image]: https://img.shields.io/david/fibjs-modules/rmdirr.svg?style=flat-square
