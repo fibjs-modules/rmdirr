@@ -21,6 +21,10 @@ describe('rmdirr', () => {
     assert.notOk(fs.exists(testFile));
     assert.notOk(fs.exists(testRoot));
   });
+
+  it('not throw error when path not exists', () => {
+    assert.doesNotThrow(() => rmdirr('123'));
+  });
 });
 
 test.run(console.DEBUG);

@@ -1,10 +1,15 @@
 const fs = require('fs');
+const util = require('util');
 const path = require('path');
 
 module.exports = function rmdirr(p) {
-  if (typeof p !== 'string') {
+  if (!util.isString(p)) {
     throw new TypeError('Path must be a string.');
   }
+
+  if (!fs.exists(p))
+    return;
+
   const fl = fs.readdir(p);
 
   if (fl.length > 0) {
