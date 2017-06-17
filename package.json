@@ -1,7 +1,7 @@
 {
   "name": "@fibjs/rmdirr",
   "description": "remove all files and directories like rmdir -rf in fibjs.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "keywords": [
     "rmdir",
     "fibjs"
